@@ -1,16 +1,16 @@
 function bracket(brackets) {
 
-  let opening = 0
+  let openingBracket = 0
 
   for (i = 0; i < brackets.length; i++) {
-    brackets[i] === '(' ? opening += 1 : opening -= 1
+    brackets[i] === '(' ? openingBracket += 1 : openingBracket -= 1
 
-    if (opening === -1) {
+    if (openingBracket === -1) {
       return false
     }
   }
 
-  return opening === 0 ? true : false
+  return openingBracket === 0 ? true : false
 
 }
 
