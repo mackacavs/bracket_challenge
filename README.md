@@ -10,11 +10,9 @@ Build a function in a language of your choice that, as an input, takes a string.
 
 | Input         | Output        |
 | ------------- |---------------|
-| 1. '()' | True |
-
-// () => the answer is true
-//  ((())) => the answer is true
-//  (()()()) => the answer is true
-//  ((())()) => the answer is true
-//  (((( => the answer is false
-//  )( => the answer is false
+| '()' | True |
+| '((()))' | True |
+| '(()()())' | True |
+| '((())())' | True |
+| '((((' | False |
+| ')(' | False |
