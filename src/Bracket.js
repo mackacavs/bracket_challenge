@@ -13,22 +13,3 @@ function bracket(brackets) {
   return openingBracket === 0 ? true : false
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// () => the answer is true
-//  ((())) => the answer is true
-//  (()()()) => the answer is true
-//  ((())()) => the answer is true
-//  (((( => the answer is false
-//  )( => the answer is false
