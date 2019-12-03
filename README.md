@@ -23,4 +23,16 @@ I used Jasmine as my testing framework as I was working in Javascript
 
 ### SCREENSHOTS
 
+<img src="images/code.png" width="400px">
+
+My code for the tech test
+
+<img src="images/tests.png" width="400px">
+
+The tests
+
+<img src="images/passing_tests.png" width="400px">
+
+Passing Tests
+
 
